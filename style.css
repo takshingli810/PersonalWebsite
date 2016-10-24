@@ -1,0 +1,179 @@
+/*Background picture + div*/
+#introDiv {
+  height:960px;
+  width:100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #3498DB;
+  position:relative;
+  overflow:hidden;
+  text-align: center;
+}
+
+#iPhone {
+  margin: 0 auto;
+  padding: 0 auto;
+  position:absolute;;
+  top: 480px;
+  left: 340px;
+  width: 440px;
+  height: 350px;
+  transform:rotateZ(3deg);
+}
+
+#iMac {
+  margin: 0 auto;
+  width: 340px;
+  height: 300px;
+  position: absolute;;
+  top: 520px;
+  left: 1250px;
+  transform:rotateZ(-3deg);
+}
+
+#macBook {
+  margin: 0 auto;
+  position:absolute;;
+  top:10px;
+  left:380px;
+  width:400px;
+  height:400px;
+  transform:rotateZ(4deg);
+}
+
+#name {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin: 0 auto;
+  padding: 0 auto;
+  position: absolute;
+  left: 750px;
+  top: 40%;
+  font-size: 120px;
+  width: 450px;
+}
+
+#iPad {
+  margin: 0 auto;
+  position:absolute;;
+  left:1200px;
+  top: 20px;
+  width: 350px;
+  height: 390px;
+  transform:rotateZ(-4deg);
+}
+
+
+
+/*About me Div*/
+#aboutMeDiv {
+  height:960px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #1569C7;
+  position:relative;
+  color: grey;
+  overflow: hidden;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100% 0%;
+}
+
+#hello {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 50px;
+}
+
+
+.svgIcon {
+  background-color: transparent;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 auto;
+  float:right;
+}
+
+#projectdiv {
+  background-color:red;
+  height:940px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#project {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  position: relative;
+  font-size: 38px;
+}
+
+#project1Pic {
+  height: 300px;
+}
+
+#project3Pic {
+  height: 300px;
+}
+
+#gaIcon {
+  height: 25px;
+  width: 25px;
+}
+
+#githubIcon {
+  height: 25px;
+  width:25px;
+  margin: -3px;
+}
+
+#linkedInIcon {
+  height:25px;
+  width:25px;
+}
+
+#facebookIcon {
+  height: 25px;
+  width: 25px;
+  margin: -3px;
+}
+
+#instagramIcon {
+  height: 25px;
+  width: 25px;
+}
+
+
+/*#projectButton {
+  font-family: 'Ubuntu', sans-serif;
+  background: transparent;
+  color:white;
+  font-size: 30px;
+  position: relative;
+  left: 364px;
+  top: 258px;
+  width:150px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-width:0px;
+  outline: none;
+
+}*/
+/*#aboutMeButton {
+  font-family: 'Ubuntu', sans-serif;
+  background: transparent;
+  color:white;
+  font-size: 30px;
+  position: relative;
+  left: 355px;
+  top: 258px;
+  width:150px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-width:0px;
+  outline: none;
+}*/
