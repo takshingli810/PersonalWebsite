@@ -1,7 +1,10 @@
 /*Background picture + div*/
+
+
+
 #introDiv {
-  height:960px;
-  width:100%;
+  height:750px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 auto;
   background-color: #3498DB;
@@ -10,35 +13,24 @@
   text-align: center;
 }
 
-#iPhone {
-  margin: 0 auto;
-  padding: 0 auto;
-  position:absolute;;
-  top: 480px;
-  left: 340px;
-  width: 440px;
-  height: 350px;
-  transform:rotateZ(3deg);
-}
-
-#iMac {
-  margin: 0 auto;
-  width: 340px;
-  height: 300px;
-  position: absolute;;
-  top: 520px;
-  left: 1250px;
-  transform:rotateZ(-3deg);
-}
-
 #macBook {
   margin: 0 auto;
   position:absolute;;
-  top:10px;
-  left:380px;
+  top:5px;
+  left:385px;
   width:400px;
   height:400px;
   transform:rotateZ(4deg);
+}
+
+#iPhone {
+  margin: 0 auto;
+  position:absolute;;
+  left:1100px;
+  top: 50px;
+  width: 350px;
+  height: 320px;
+  transform:rotateZ(-5deg);
 }
 
 #name {
@@ -48,21 +40,10 @@
   padding: 0 auto;
   position: absolute;
   left: 750px;
-  top: 40%;
+  top: 35%;
   font-size: 120px;
   width: 450px;
 }
-
-#iPad {
-  margin: 0 auto;
-  position:absolute;;
-  left:1200px;
-  top: 20px;
-  width: 350px;
-  height: 390px;
-  transform:rotateZ(-4deg);
-}
-
 
 
 /*About me Div*/
@@ -70,16 +51,14 @@
   height:960px;
   margin: 0 auto;
   padding: 0 auto;
-  background-color: #1569C7;
+  background-color: #3498DB;
   position:relative;
   color: grey;
   overflow: hidden;
-  scroll-snap-points-y: repeat(100%);
-  scroll-snap-type: mandatory;
-  scroll-snap-destination: 100% 0%;
 }
 
 #hello {
+  color: white;
   margin: 0 auto;
   padding: 0 auto;
   font-size: 50px;
@@ -144,36 +123,3 @@
   height: 25px;
   width: 25px;
 }
-
-
-/*#projectButton {
-  font-family: 'Ubuntu', sans-serif;
-  background: transparent;
-  color:white;
-  font-size: 30px;
-  position: relative;
-  left: 364px;
-  top: 258px;
-  width:150px;
-  height: 40px;
-  margin: 0 auto;
-  padding: 0 auto;
-  border-width:0px;
-  outline: none;
-
-}*/
-/*#aboutMeButton {
-  font-family: 'Ubuntu', sans-serif;
-  background: transparent;
-  color:white;
-  font-size: 30px;
-  position: relative;
-  left: 355px;
-  top: 258px;
-  width:150px;
-  height: 40px;
-  margin: 0 auto;
-  padding: 0 auto;
-  border-width:0px;
-  outline: none;
-}*/
